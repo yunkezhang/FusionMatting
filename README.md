@@ -10,7 +10,7 @@ Sorry for the inconvience but due to Alibaba's policy we cannot share our human 
 
 ## Code, Model & Clarification
 
-You can download the code and model at https://1drv.ms/u/s!AuG441T6ysq5g1GM17vPsk1VaJOY?e=F202T7
+You can download the code and model at https://1drv.ms/u/s!AuG441T6ysq5gytUc8LNhwv-MlqY?e=n0cpaU
 
 **Please note: In our paper, we used two different datasets: DIM dataset and our human matting dataset.**
 
