@@ -16,9 +16,9 @@ You can download the code and model at https://1drv.ms/u/s!AuG441T6ysq5gytUc8LNh
 
 **The model we released is trained on DIM dataset's TRAIN split and finetuned on our human matting dataset's TRAIN split, which consists of DIM human images in the DIM training split + collected training human images.**
 
-**The state in previous version of background matting paper in CVPR2020(arXiv: 2004.00626) Section 4.1: 'as the released model was trained on all of the Adobe data, including the test data used here (confirmed by the authors)' is not true.**
+**The state in previous version of Background Matting in CVPR2020 (arXiv: 2004.00626) Section 4.1: 'as the released model was trained on all of the Adobe data, including the test data used here (confirmed by the authors)' is not true.**
 
-**We thank the authors ofbackground matting paper in CVPR2020(arXiv: 2004.00626) for the quick correction. The arXiv paper should be updated soon.**
+**We thank the authors of Background Matting in CVPR2020 for the quick correction. The arXiv version should be updated soon.**
 
 ## More test cases & Limitation
 
@@ -79,7 +79,7 @@ By cropping the image (keep the foregound object's scale relatively large), the 
 
 #### Full Body
 
-Since the training images are created by blending the foreground and background images, the foregound objects in training images usually looks separate from the background. In addition, we don't have full body images in our training dataset. Thus, for the case shown below, our model gives a bad result:
+Since the training images are created by composing the foreground and background images, the foregound objects in training images usually looks separate from the background. In addition, we don't have full body images in our training dataset. Thus, for the case shown below, our model gives a bad result:
 ![181204](test_images/181204_concat.jpg)
 
 ## Test on Background Matting Images
